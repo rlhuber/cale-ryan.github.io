@@ -52,10 +52,13 @@ header img {
 	margin: 0;
 	padding: 0;
 	position: relative;
+	display: flex;
 }
 #nav_menu ul li {
-	float: left;
-    width: 20%;                 /* 160 / 800 x 100 */
+	width: 20%;                 /* 160 / 800 x 100 */
+	display: block;
+	flex-basis: 100%;
+	justify-content: space-between;
 }
 #nav_menu ul li a {
     display: block;
