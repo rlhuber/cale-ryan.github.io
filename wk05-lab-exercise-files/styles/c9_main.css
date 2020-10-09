@@ -76,7 +76,7 @@ header img {
     top: 100%;
 }
 #nav_menu ul ul li {
-	float: none;
+
 }
 #nav_menu ul li:hover > ul {
 	display: block;
@@ -94,7 +94,6 @@ main {
 /* the styles for the section */
 section {
 	width: 65.625%;                  /* 525 / 800 X 100 */
-	float: right;
 	padding: 0 2.5% 20px 2.5%;       /* 20 / 800 x 100 */
 }
 section h1 {
@@ -146,7 +145,6 @@ article img {
 /* the styles for the aside */
 aside {
 	width: 26.875%;                     /* 215 / 800 x 100 */
-	float: right;
 	padding: 0 0 20px 2.5%;             /* 20 / 800 x 100 */
 }
 aside h2 {
@@ -189,11 +187,9 @@ footer p {
 	header img { float: none; }
 	header { text-align: center; }
 	section {
-		float: none;
 		width: 95%;                     /* 100 - (2 x 2.5) for padding */
 	}
 	aside {
-		float: none;
 		padding-right: 2.5%;           /* 20 / 800 x 100 */
 		width: 95%;                    /* 100 - (2 x 2.5) for padding */
 	}
